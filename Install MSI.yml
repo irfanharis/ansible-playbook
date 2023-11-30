@@ -1,6 +1,7 @@
 ---
 - name: Installing Apache MSI
-  hosts: windows
+  hosts: all
+  gather_facts: false
 
   tasks:
     - name: Download the Apache installer
