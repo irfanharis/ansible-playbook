@@ -10,11 +10,11 @@
         dest: D:\Downloads\Postman-Agent-win64-0.4.17-Setup.exe
 
 
-    - name: Install MSI
-      win_package:
-        path: D:\Downloads\Postman-Agent-win64-0.4.17-Setup.exe
-        state: present
-        reboot: no
+   ## - name: Install MSI
+   ##   win_package:
+   ##     path: D:\Downloads\Postman-Agent-win64-0.4.17-Setup.exe
+   ##     state: present
+   ##     reboot: no
 
     - name: Install MSI 2
       win_package: 
